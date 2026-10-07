@@ -1,0 +1,98 @@
+[
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 10,
+    "attempted_external": 10,
+    "state_snapshot": "state_0"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 9,
+    "attempted_external": 10,
+    "state_snapshot": "state_1"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 8,
+    "attempted_external": 10,
+    "state_snapshot": "state_2"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 7,
+    "attempted_external": 10,
+    "state_snapshot": "state_3"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 6,
+    "attempted_external": 10,
+    "state_snapshot": "state_4"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 5,
+    "attempted_external": 10,
+    "state_snapshot": "state_5"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 4,
+    "attempted_external": 10,
+    "state_snapshot": "state_6"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 3,
+    "attempted_external": 10,
+    "state_snapshot": "state_7"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 2,
+    "attempted_external": 10,
+    "state_snapshot": "state_8"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 1,
+    "attempted_external": 10,
+    "state_snapshot": "state_9"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 0,
+    "attempted_external": 10,
+    "state_snapshot": "state_10"
+  },
+  {
+    "self_calls": 2,
+    "total_calls": 10,
+    "active_units": 3,
+    "admitted_external": 0,
+    "attempted_external": 10,
+    "state_snapshot": "state_11"
+  }
+]

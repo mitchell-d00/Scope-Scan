@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scope-scanner-join"
+version = "0.1.0"
+description = "Operator Algebra telemetry measurement joined to SCOPE candidate pruning"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Mitchell D. McPhetridge"}]
+dependencies = []
+
+[project.scripts]
+scope-scanner-join = "scope_scanner_join.__main__:main"
+
+[tool.setuptools]
+py-modules = ["operator_scanner", "scope_scanner"]
+
+[tool.setuptools.packages.find]
+include = ["scope_scanner_join*", "scope_runtime*"]

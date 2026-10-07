@@ -1,0 +1,1636 @@
+{
+  "cases": [
+    {
+      "schema_version": "1.0",
+      "title": "Sealed component",
+      "status": "matched",
+      "config": {
+        "scale_reference": 10.0,
+        "state_window": 8,
+        "epsilon": 0.02,
+        "match_policy": "exact"
+      },
+      "selection_policy": "highest count among matched transitions; retain all tied labels",
+      "tick_count": 12,
+      "evaluated_comparisons": 4,
+      "unmatched_comparisons": 1,
+      "hit_counts": {
+        "Onion": 3
+      },
+      "selected_labels": [
+        "Onion"
+      ],
+      "timeline": [
+        {
+          "tick": 1,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 10,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            1.0,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 2,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.9,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 3,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 4,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 7,
+            "attempted_external": 10,
+            "state_snapshot": "state_3"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.7,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 5,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 6,
+            "attempted_external": 10,
+            "state_snapshot": "state_4"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.6,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 6,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 5,
+            "attempted_external": 10,
+            "state_snapshot": "state_5"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.5,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 7,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 4,
+            "attempted_external": 10,
+            "state_snapshot": "state_6"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.4,
+            1.1102230246251565e-16
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 8,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 3,
+            "attempted_external": 10,
+            "state_snapshot": "state_7"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.3,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 9,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 2,
+            "attempted_external": 10,
+            "state_snapshot": "state_8"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.2,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Onion",
+          "category": "SEALED (flow blocked, nothing else moving)",
+          "exact_operator": "Onion",
+          "upstream_operator": "Onion",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 10,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 1,
+            "attempted_external": 10,
+            "state_snapshot": "state_9"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.1,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Onion",
+          "category": "SEALED (flow blocked, nothing else moving)",
+          "exact_operator": "Onion",
+          "upstream_operator": "Onion",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 11,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 0,
+            "attempted_external": 10,
+            "state_snapshot": "state_10"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.0,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Onion",
+          "category": "SEALED (flow blocked, nothing else moving)",
+          "exact_operator": "Onion",
+          "upstream_operator": "Onion",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 12,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 0,
+            "attempted_external": 10,
+            "state_snapshot": "state_11"
+          },
+          "rsfe": [
+            0.2,
+            0.3,
+            0.0,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        }
+      ],
+      "scope": {
+        "initial_candidates": 10,
+        "survivors": [
+          "Onion"
+        ],
+        "eliminations": [
+          {
+            "candidate": "Apple",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Gate",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Stack",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Mirror",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Funnel",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Hydra",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Echo",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Spiral",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "no match",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          }
+        ],
+        "iterations": 2,
+        "termination_reason": "no further elimination",
+        "history_sufficient": true,
+        "dre": {
+          "window_size": 5,
+          "observations": 2,
+          "history_sufficient": false,
+          "drift_detected": false,
+          "delta_h": [
+            -9,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "title": "Bottleneck",
+      "status": "ambiguous",
+      "config": {
+        "scale_reference": 10.0,
+        "state_window": 8,
+        "epsilon": 0.02,
+        "match_policy": "exact"
+      },
+      "selection_policy": "highest count among matched transitions; retain all tied labels",
+      "tick_count": 12,
+      "evaluated_comparisons": 4,
+      "unmatched_comparisons": 2,
+      "hit_counts": {
+        "Hydra": 1,
+        "Onion": 1
+      },
+      "selected_labels": [
+        "Hydra",
+        "Onion"
+      ],
+      "timeline": [
+        {
+          "tick": 1,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 2,
+            "admitted_external": 10,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.1,
+            0.2,
+            1.0,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 2,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.1,
+            0.3,
+            0.9,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 3,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.1,
+            0.4,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 4,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 5,
+            "admitted_external": 7,
+            "attempted_external": 10,
+            "state_snapshot": "state_3"
+          },
+          "rsfe": [
+            0.1,
+            0.5,
+            0.7,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 5,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 6,
+            "admitted_external": 6,
+            "attempted_external": 10,
+            "state_snapshot": "state_4"
+          },
+          "rsfe": [
+            0.1,
+            0.6,
+            0.6,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 6,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 7,
+            "admitted_external": 5,
+            "attempted_external": 10,
+            "state_snapshot": "state_5"
+          },
+          "rsfe": [
+            0.1,
+            0.7,
+            0.5,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 7,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 8,
+            "admitted_external": 4,
+            "attempted_external": 10,
+            "state_snapshot": "state_6"
+          },
+          "rsfe": [
+            0.1,
+            0.8,
+            0.4,
+            1.1102230246251565e-16
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 8,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 9,
+            "admitted_external": 3,
+            "attempted_external": 10,
+            "state_snapshot": "state_7"
+          },
+          "rsfe": [
+            0.1,
+            0.9,
+            0.3,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 9,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 10,
+            "admitted_external": 2,
+            "attempted_external": 10,
+            "state_snapshot": "state_8"
+          },
+          "rsfe": [
+            0.1,
+            1.0,
+            0.2,
+            0.0
+          ],
+          "sign": [
+            0,
+            1,
+            -1,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Hydra",
+          "category": "BOTTLENECK (scale expanding while flow is constrained)",
+          "exact_operator": "Hydra",
+          "upstream_operator": "Hydra",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 10,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 11,
+            "admitted_external": 1,
+            "attempted_external": 10,
+            "state_snapshot": "state_9"
+          },
+          "rsfe": [
+            0.1,
+            1.0,
+            0.1,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Onion",
+          "category": "SEALED (flow blocked, nothing else moving)",
+          "exact_operator": "Onion",
+          "upstream_operator": "Onion",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 11,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 12,
+            "admitted_external": 1,
+            "attempted_external": 10,
+            "state_snapshot": "state_10"
+          },
+          "rsfe": [
+            0.1,
+            1.0,
+            0.1,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 12,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 13,
+            "admitted_external": 1,
+            "attempted_external": 10,
+            "state_snapshot": "state_11"
+          },
+          "rsfe": [
+            0.1,
+            1.0,
+            0.1,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        }
+      ],
+      "scope": {
+        "initial_candidates": 10,
+        "survivors": [
+          "Onion",
+          "Hydra"
+        ],
+        "eliminations": [
+          {
+            "candidate": "Apple",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Gate",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Stack",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Mirror",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Funnel",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Echo",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Spiral",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "no match",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          }
+        ],
+        "iterations": 2,
+        "termination_reason": "no further elimination",
+        "history_sufficient": true,
+        "dre": {
+          "window_size": 5,
+          "observations": 2,
+          "history_sufficient": false,
+          "drift_detected": false,
+          "delta_h": [
+            -8,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "title": "Self-reference collapse",
+      "status": "matched",
+      "config": {
+        "scale_reference": 10.0,
+        "state_window": 8,
+        "epsilon": 0.02,
+        "match_policy": "exact"
+      },
+      "selection_policy": "highest count among matched transitions; retain all tied labels",
+      "tick_count": 12,
+      "evaluated_comparisons": 4,
+      "unmatched_comparisons": 2,
+      "hit_counts": {
+        "Mirror": 2
+      },
+      "selected_labels": [
+        "Mirror"
+      ],
+      "timeline": [
+        {
+          "tick": 1,
+          "telemetry": {
+            "self_calls": 1,
+            "total_calls": 10,
+            "active_units": 10,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.1,
+            1.0,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 2,
+          "telemetry": {
+            "self_calls": 2,
+            "total_calls": 10,
+            "active_units": 9,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.2,
+            0.9,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 3,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 8,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.3,
+            0.8,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 4,
+          "telemetry": {
+            "self_calls": 4,
+            "total_calls": 10,
+            "active_units": 7,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_3"
+          },
+          "rsfe": [
+            0.4,
+            0.7,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 5,
+          "telemetry": {
+            "self_calls": 5,
+            "total_calls": 10,
+            "active_units": 6,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_4"
+          },
+          "rsfe": [
+            0.5,
+            0.6,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 6,
+          "telemetry": {
+            "self_calls": 6,
+            "total_calls": 10,
+            "active_units": 5,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_5"
+          },
+          "rsfe": [
+            0.6,
+            0.5,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 7,
+          "telemetry": {
+            "self_calls": 7,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_6"
+          },
+          "rsfe": [
+            0.7,
+            0.4,
+            0.8,
+            1.1102230246251565e-16
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 8,
+          "telemetry": {
+            "self_calls": 8,
+            "total_calls": 10,
+            "active_units": 3,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_7"
+          },
+          "rsfe": [
+            0.8,
+            0.3,
+            0.8,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 9,
+          "telemetry": {
+            "self_calls": 9,
+            "total_calls": 10,
+            "active_units": 2,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_8"
+          },
+          "rsfe": [
+            0.9,
+            0.2,
+            0.8,
+            0.0
+          ],
+          "sign": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Mirror",
+          "category": "SELF-REFERENCE RISING (turning inward, away from external checks)",
+          "exact_operator": "Mirror",
+          "upstream_operator": "Mirror",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 10,
+          "telemetry": {
+            "self_calls": 10,
+            "total_calls": 10,
+            "active_units": 1,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_9"
+          },
+          "rsfe": [
+            1.0,
+            0.1,
+            0.8,
+            0.0
+          ],
+          "sign": [
+            1,
+            -1,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": "Mirror",
+          "category": "SELF-REFERENCE RISING (turning inward, away from external checks)",
+          "exact_operator": "Mirror",
+          "upstream_operator": "Mirror",
+          "upstream_match_strength": "4/4 axes"
+        },
+        {
+          "tick": 11,
+          "telemetry": {
+            "self_calls": 10,
+            "total_calls": 10,
+            "active_units": 1,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_10"
+          },
+          "rsfe": [
+            1.0,
+            0.1,
+            0.8,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 12,
+          "telemetry": {
+            "self_calls": 10,
+            "total_calls": 10,
+            "active_units": 1,
+            "admitted_external": 8,
+            "attempted_external": 10,
+            "state_snapshot": "state_11"
+          },
+          "rsfe": [
+            1.0,
+            0.1,
+            0.8,
+            0.0
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        }
+      ],
+      "scope": {
+        "initial_candidates": 10,
+        "survivors": [
+          "Mirror"
+        ],
+        "eliminations": [
+          {
+            "candidate": "Onion",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Apple",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Gate",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Stack",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Funnel",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Hydra",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Echo",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Spiral",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "no match",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          }
+        ],
+        "iterations": 2,
+        "termination_reason": "no further elimination",
+        "history_sufficient": true,
+        "dre": {
+          "window_size": 5,
+          "observations": 2,
+          "history_sufficient": false,
+          "drift_detected": false,
+          "delta_h": [
+            -9,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "schema_version": "1.0",
+      "title": "Healthy baseline",
+      "status": "no_match",
+      "config": {
+        "scale_reference": 10.0,
+        "state_window": 8,
+        "epsilon": 0.02,
+        "match_policy": "exact"
+      },
+      "selection_policy": "highest count among matched transitions; retain all tied labels",
+      "tick_count": 12,
+      "evaluated_comparisons": 4,
+      "unmatched_comparisons": 4,
+      "hit_counts": {},
+      "selected_labels": [
+        "no match"
+      ],
+      "timeline": [
+        {
+          "tick": 1,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 2,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 3,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.0
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 4,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.25
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 5,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.34454124645871453
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 6,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.38685280723454163
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 7,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.44550769294183257
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": false,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 8,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.4795739585136224
+          ],
+          "sign": null,
+          "comparison_evaluated": false,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 9,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.4795739585136224
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 10,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_0"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.4795739585136224
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 11,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_1"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.4795739585136224
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        },
+        {
+          "tick": 12,
+          "telemetry": {
+            "self_calls": 3,
+            "total_calls": 10,
+            "active_units": 4,
+            "admitted_external": 9,
+            "attempted_external": 10,
+            "state_snapshot": "state_2"
+          },
+          "rsfe": [
+            0.3,
+            0.4,
+            0.9,
+            0.4795739585136224
+          ],
+          "sign": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "comparison_evaluated": true,
+          "window_full": true,
+          "operator": null,
+          "category": null,
+          "exact_operator": null,
+          "upstream_operator": null,
+          "upstream_match_strength": null
+        }
+      ],
+      "scope": {
+        "initial_candidates": 10,
+        "survivors": [
+          "no match"
+        ],
+        "eliminations": [
+          {
+            "candidate": "Onion",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Apple",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Gate",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Stack",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Mirror",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Funnel",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Hydra",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Echo",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          },
+          {
+            "candidate": "Spiral",
+            "reason": "Falsified by 'Trace-selection mismatch': Label is outside the set selected from measured comparisons.",
+            "falsifier": "Trace-selection mismatch"
+          }
+        ],
+        "iterations": 2,
+        "termination_reason": "no further elimination",
+        "history_sufficient": true,
+        "dre": {
+          "window_size": 5,
+          "observations": 2,
+          "history_sufficient": false,
+          "drift_detected": false,
+          "delta_h": [
+            -9,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}
